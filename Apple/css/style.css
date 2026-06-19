@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+   max-width: 100%;
+}
+
+body {
+    width: 100%;
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Arial, sans-serif;
+    font-size: 20px;
+}
+
+/*header*/
+.header .nav {
+    background-color: rgb(243, 243, 243);
+    padding: 10px;
+}
+
+.header .nav ul {
+    width: 70%;
+    margin: auto;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 0.80rem;
+    font-weight: 100;
+}
+
+/*iphone section*/
+.iphone-wrapper,
+.fathersday-wrapper,
+.college-wrapper,
+.macbookair-wrapper,
+.ipadair-wrapper,
+.macbookpro-wrapper,
+.watch-wrapper,
+.applecard-wrapper,
+.tradein-wrapper {
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.iphone-wrapper {
+    margin-top: 44px;
+    background-image: url("../images/home/hero_iphone_family__be5jkzxszb1e_large_2x.jpg");
+}
+
+.fathersday-wrapper {
+    background-image: url("../images/home/hero_fd26__c9vr0hxu24eq_large_2x.jpg");
+}
+
+.college-wrapper {
+    background-color: var(--color-bg-alt);
+    background-image: url("../images/home/hero_college_students_2026__dzrtx52rt9aq_large_2x.jpg");
+}
+
+/* Two-column promo sections (350px art) */
+.macbookair-wrapper {
+    background-image: url("../images/home/promo_macbook_air_m5__e5xk2yysqiie_large_2x.jpg");
+}
+
+.ipadair-wrapper {
+    background-image: url("../images/home/promo_ipad_air_m4__bgcv7t286k8y_large_2x.jpg");
+}
+
+.macbookpro-wrapper {
+    background-color: #000;
+    background-image: url("../images/home/promo_macbook_pro__c9td9w1mc8ia_large_2x.jpg");
+}
+
+.watch-wrapper {
+    background-image: url("../images/home/promo_apple_watch_series_11__gnlwqxe1jlu2_large_2x.jpg");
+}
+
+.applecard-wrapper {
+    background-image: url("../images/home/promo_apple_card_airpods__dpbuw4e90126_large_2x.jpg");
+}
+
+.tradein-wrapper {
+    background-image: url("../images/home/promo_iphone_tradein__e4hrjxmgmf0i_large_2x.jpg");
+}
+
+.section-title {
+    font-size: 2.8em;
+    font-weight: 600;
+    color: black;
+    margin-bottom: 6px;
+}
+
+.section-description {
+    font-size: 1.4em;
+    font-weight: 400;
+    color: black;
+    margin-bottom: 6px;
+}
+
+.limitations {
+    font-size: 0.73em;
+    color: gray;
+    margin-top: 8px;
+}
+
+.links-wrapper {
+    padding: 15px 0;
+}
+
+.links-wrapper ul {
+    list-style: none;
+}
+
+.links-wrapper ul li {
+    display: inline-block;
+    padding: 0 8px;
+}
+
+.links-wrapper ul li a,
+.link-solid-white,
+.link-outline-white {
+    text-decoration: none;
+    font-size: 0.94em;
+    border: 1.5px solid currentColor;
+    border-radius: 20px;
+    padding: 8px 18px;
+    display: inline-block;
+    transition:0.2s;
+}
+
+.links-wrapper ul li a {
+    color: rgb(37, 109, 224);
+    border-color: rgb(37, 109, 224);
+}
+
+.links-wrapper ul li a:hover,
+.links-wrapper ul li a.link-outline:hover {
+    background:  rgb(37, 109, 224);
+    color: #fff;
+}
+
+/*solid*/
+.links-wrapper ul li a.link-solid {
+    color: white;
+    background: rgb(37, 109, 224);
+    border-color: rgb(37, 109, 224);
+}
